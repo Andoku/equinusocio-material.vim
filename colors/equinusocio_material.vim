@@ -103,7 +103,7 @@ call s:HL('PmenuSbar', s:colors.none, s:colors.menu_bg, s:colors.none)
 call s:HL('PmenuThumb', s:colors.none, s:colors.foreground, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Question', s:colors.red, s:colors.none, s:colors.none)
-call s:HL('QuickFixLine', s:colors.foreground, s:colors.background, s:colors.none) " link it to normal
+call s:HL('QuickFixLine', s:colors.foreground, s:colors.selection, s:colors.none)
 call s:HL('Search', s:colors.black, s:colors.magenta, s:colors.none)
 call s:HL('SpecialKey', s:colors.black_br, s:colors.none, s:colors.none)
 " ----------------------------------------------------
@@ -140,6 +140,7 @@ call s:HL('Comment', s:colors.comment, s:colors.none, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none, s:colors.none)
 call s:HL('String', s:colors.green, s:colors.none, s:colors.none)
+call s:HL('Character', s:colors.green, s:colors.none, s:colors.none)
 call s:HL('Number', s:colors.orange, s:colors.none, s:colors.none)
 call s:HL('Boolean', s:colors.orange, s:colors.none, s:colors.none)
 call s:HL('Float', s:colors.orange, s:colors.none, s:colors.none)
